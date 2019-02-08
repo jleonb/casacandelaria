@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="Default">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	
+    
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins" rel="stylesheet">
+    <title>Karl</title>
+
+  <!-- @import "favicon.kit" -->  
+<!-- Google Analytics -->
+ 
+<!-- Google Analytics END -->
+    
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<!-- @import menu.kit -->
+<!-- bloc-0 END -->
+
+<!-- bloc-6 -->
+<div class="bloc bgc-platinum tc-gray-htmlcss-gray l-bloc" id="bloc-6">
+	<div class="container bloc-md">
+		<ol class="breadcrumb mg-lg titulo">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="compromiso.html">Compromiso</a></li>
+			<li class="active">Karl</li>
+	  </ol>
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="img/com/29_karl.jpg" class="img-responsive" />
+			</div>
+			<div class="col-sm-6">
+				<h2 class="mg-md tc-black titulo">
+					Katy
+				</h2>
+				<!-- <p class="mg-lg texto">
+					De oro blanco, de diseño minimalista, simple pero muy elegante. 	
+				</p> -->
+				<h4 class="mg-md tc-black titulo">
+					Descripción
+				</h4>
+				<p class="mg-lg texto">
+					Anillo oro blanco y diamante central 0.40ct con 7 diamantes de 0.003ct a cada costado.
+					También se pueden hacer en platino, oro blanco, amarillo y rojo.
+                    Con diferentes calidades y porte de diamantes.
+				</p>
+				<h4 class="mg-md tc-black titulo">
+					Composición
+				</h4>
+				<p class="mg-lg texto">
+                    Anillo oro blanco y diamante central 0.40ct con 7 diamantes de 0.003ct a cada costado.
+				</p>
+				<a href="#com_karl" data-toggle="modal" class="btn btn-md btn-sq btn-wire wire-btn-outer-space titulo">COTIZAR</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-6 END -->
+
+<div id="com_karl" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<!-- <h4 class="modal-title">Formulario de contacto</h4> -->
+		<img src="img/contacto.jpeg" alt="" class="img-responsive center-block">
+    </div>
+    <div class="modal-body">
+		<form class="form-horizontal text-center" name="commentform" method="post" action="com_karl.php">
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="first_name">Nombre</label>
+				<div class="col-md-6">
+					<input type="text" class="" id="nombre" name="nombre" placeholder="" size="35"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="last_name">Teléfono</label>
+				<div class="col-md-6">
+					<input type="text" class="" id="telefono" name="telefono" placeholder="" size="35"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="email">E-mail</label>
+					<div class="col-md-6 email">
+						<input  class="uno" id="email" name="email"  placeholder=""  size="12"/>
+						<div class="titulo uno">@</div>
+						<input  class="uno" id="dominio" name="dominio" placeholder="" size="12"/>
+					</div>					
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="first_name">Asunto</label>
+				<div class="col-md-6">
+					<input type="text" class="" id="asunto" name="asunto" placeholder="" size="35"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="comment">Mensaje</label>
+				<div class="col-md-6">
+					<textarea rows="6" class="" id="comments" name="comments" placeholder="" cols="35"></textarea>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-10">
+					<button id="send_btn" type="submit" value="Submit" class="btn btn-md btn-sq btn-wire wire-btn-outer-space titulo pull-right">ENVIAR</button>
+				</div>
+			</div>
+		</form>
+    </div><!-- End of Modal body -->
+    </div><!-- End of Modal content -->
+    </div><!-- End of Modal dialog -->
+</div><!-- End of Modal -->
+
+<script>
+    $('#send_btn').popover({content: 'Gracias!'},'click');
+</script>
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
+
+
+<!-- Footer - bloc-9 -->
+<div class="bloc bgc-platinum l-bloc full-width-bloc" id="bloc-9">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-9 END -->
+
+<!-- Footer - bloc-10 -->
+<!-- @import footer.kit -->
+<!-- Footer - bloc-10 END -->
+
+</div>
+<!-- Main container END -->
+    
+
+
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction"></div>
+<!-- Preloader END -->
+
+</body>
+</html>

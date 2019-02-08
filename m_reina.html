@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="Default">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	
+    
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins" rel="stylesheet">
+    <title>Reina</title>
+
+   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+   <link rel="manifest" href="/favicon/site.webmanifest">
+   <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <link rel="shortcut icon" href="/favicon/favicon.ico">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+   <meta name="theme-color" content="#ffffff"> 
+<!-- Google Analytics -->
+ 
+<!-- Google Analytics END -->
+    
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<div class="bloc bgc-white l-bloc" id="bloc-0">
+	<div class="container bloc-sm">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"><img src="img/logo_footer.png" alt="logo" /></a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav navbar-nav">
+					<li>
+						<a href="index.html"><strong>Inicio</strong></a>
+					</li>
+					<li>
+						<a href="matrimonio.html"><strong>Matrimonio</strong></a>
+					</li>
+					<li>
+						<a href="compromiso.html"><strong>Compromiso</strong></a>
+					</li>
+					<li>
+						<a href="cintillo.html"><strong>Cintillo</strong></a>
+					</li>
+					<li>
+						<a href="novias.html"><strong>Joyas para Novias</strong></a>
+					</li>
+					<li>
+						<a href="somos.html"><strong>Somos</strong></a>
+					</li>
+					<li>
+						<a href="#myModal" data-toggle="modal"><strong>Contacto</strong></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+
+<!-- Button to trigger modal --> 
+<!-- 	 -->
+<!-- Modal -->
+<!-- bloc-0 END -->
+
+<!-- bloc-6 -->
+<div class="bloc bgc-platinum tc-gray-htmlcss-gray l-bloc" id="bloc-6">
+	<div class="container bloc-md">
+		<ol class="breadcrumb mg-lg titulo">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="matrimonio.html">Matrimonio</a></li>
+			<li class="active">Reina</li>
+	  </ol>
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="img/mat/reina.jpg" class="img-responsive" />
+			</div>
+			<div class="col-sm-6">
+				<h2 class="mg-md tc-black titulo">
+					Reina
+				</h2>
+				<!-- <p class="mg-lg texto">
+					El oro amarillo destaca de forma clásica en tu boda, una excelente elección que aporta clase y buen gusto.
+				</p> -->
+				<h4 class="mg-md tc-black titulo">
+					Descripción
+				</h4>
+				<p class="mg-lg texto">
+					Argolla oro amarillo con diamantes.
+                    También se pueden hacer en platino, oro blanco, amarillo y rojo.
+                    Con diferentes calidades y porte de diamantes.
+				</p>
+				<h4 class="mg-md tc-black titulo">
+					Composición
+				</h4>
+				<p class="mg-lg texto">
+                    Argolla oro amarillo con diamantes.
+				</p>
+				<a href="#m_reina" data-toggle="modal" class="btn btn-md btn-sq btn-wire wire-btn-outer-space titulo">COTIZAR</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-6 END -->
+
+<div id="m_reina" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<!-- <h4 class="modal-title">Formulario de contacto</h4> -->
+		<img src="img/contacto.jpeg" alt="" class="img-responsive center-block">
+    </div>
+    <div class="modal-body">
+		<form class="form-horizontal text-center" name="commentform" method="post" action="m_reina.php">
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="first_name">Nombre</label>
+				<div class="col-md-6">
+					<input type="text" class="" id="nombre" name="nombre" placeholder="" size="35"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="last_name">Teléfono</label>
+				<div class="col-md-6">
+					<input type="text" class="" id="telefono" name="telefono" placeholder="" size="35"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="email">E-mail</label>
+					<div class="col-md-6 email">
+						<input  class="uno" id="email" name="email"  placeholder=""  size="12"/>
+						<div class="titulo uno">@</div>
+						<input  class="uno" id="dominio" name="dominio" placeholder="" size="12"/>
+					</div>					
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="first_name">Asunto</label>
+				<div class="col-md-6">
+					<input type="text" class="" id="asunto" name="asunto" placeholder="" size="35"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="comment">Mensaje</label>
+				<div class="col-md-6">
+					<textarea rows="6" class="" id="comments" name="comments" placeholder="" cols="35"></textarea>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-10">
+					<button id="send_btn" type="submit" value="Submit" class="btn btn-md btn-sq btn-wire wire-btn-outer-space titulo pull-right">ENVIAR</button>
+				</div>
+			</div>
+		</form>
+    </div><!-- End of Modal body -->
+    </div><!-- End of Modal content -->
+    </div><!-- End of Modal dialog -->
+</div><!-- End of Modal -->
+
+<script>
+    $('#send_btn').popover({content: 'Gracias!'},'click');
+</script>
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
+
+
+<!-- Footer - bloc-9 -->
+<div class="bloc bgc-platinum l-bloc full-width-bloc" id="bloc-9">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-9 END -->
+
+<!-- Footer - bloc-10 -->
+<div class="bloc bgc-outer-space d-bloc" id="bloc-10">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-3">
+				<h4 class="mg-md bloc-mob-center-text tc-white titulo">
+					CONTACTO
+                </h4>
+                <a href="mailto:contacto@casacandelaria.cl" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-envelope"></i> contacto@casacandelaria.cl</a>				
+				<a href="tel:+56996805066" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-phone"></i> +56 9 9680 5066</a>
+				<a href="tel:+56953857977" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-phone"></i> +56 9 5385 7977</a>
+                <a href="https://goo.gl/maps/vxBBxcNVWqp" target="_blank" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-map-marker"></i> Candelaria Goyenechea #3820 <br>Local 50/51, Lo Castillo, Vitacura</a>
+			</div>
+			<div class="col-sm-3">
+				<h4 class="mg-md bloc-mob-center-text tc-white titulo">
+					PRODUCTOS
+                </h4>
+                <a href="matrimonio.html" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-plus"></i> Argollas Matrimonio</a>
+                <a href="compromiso.html" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-plus"></i> Anillos Compromiso</a>
+				<a href="cintillos.html" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-plus"></i> Anillos Cintillo</a>
+				<a href="novias.html" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-plus"></i> Joyas para Novias</a>
+			</div>
+			<div class="col-sm-2">
+				<h4 class="mg-md bloc-mob-center-text tc-white titulo">
+					SIGUENOS
+				</h4>
+				<a href="https://www.facebook.com/Casa-Candelaria-163553077143200/" target="_blank" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-facebook"></i> Facebook</a>
+                <a href="https://www.instagram.com/casa_candelaria/" target="_blank" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-instagram"></i> Instagram</a>
+			</div>
+			<div class="col-sm-4">
+				<div class="row">
+					<div class="col-sm-6">
+						<img src="img/logo.png" class="img-responsive logo-footer center-block" />
+					</div>
+					<div class="col-sm-6">
+						<img src="img/gia.png" class="img-responsive  center-block mg-md">
+						<img src="img/webpay.png" class="img-responsive  center-block">
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<!-- <h4 class="modal-title">Formulario de contacto</h4> -->
+		<img src="img/contacto.jpeg" alt="" class="img-responsive center-block">
+    </div>
+    <div class="modal-body">
+		<form class="form-horizontal text-center" name="commentform" method="post" action="contacto.php">
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="first_name">Nombre</label>
+				<div class="col-md-6">
+					<input type="text" class="" id="nombre" name="nombre" placeholder="" size="35"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="last_name">Teléfono</label>
+				<div class="col-md-6">
+					<input type="text" class="" id="telefono" name="telefono" placeholder="" size="35"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="email">E-mail</label>
+					<div class="col-md-6 email">
+						<input  class="uno" id="email" name="email"  placeholder=""  size="12"/>
+						<div class="titulo uno">@</div>
+						<input  class="uno" id="dominio" name="dominio" placeholder="" size="12"/>
+					</div>					
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="first_name">Asunto</label>
+				<div class="col-md-6">
+					<input type="text" class="" id="asunto" name="asunto" placeholder="" size="35"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="comment">Mensaje</label>
+				<div class="col-md-6">
+					<textarea rows="6" class="" id="comments" name="comments" placeholder="" cols="35"></textarea>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-10">
+					<button id="send_btn" type="submit" value="Submit" class="btn btn-md btn-sq btn-wire wire-btn-outer-space titulo pull-right">ENVIAR</button>
+				</div>
+			</div>
+		</form>
+    </div><!-- End of Modal body -->
+    </div><!-- End of Modal content -->
+    </div><!-- End of Modal dialog -->
+</div><!-- End of Modal -->
+
+<script>
+    $('#send_btn').popover({content: 'Gracias!'},'click');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127056955-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127056955-1');
+</script>
+
+<!-- Footer - bloc-10 END -->
+
+</div>
+<!-- Main container END -->
+    
+
+
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction"></div>
+<!-- Preloader END -->
+
+</body>
+</html>

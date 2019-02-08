@@ -1,0 +1,116 @@
+<div class="bloc bgc-outer-space d-bloc" id="bloc-10">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-3">
+				<h4 class="mg-md bloc-mob-center-text tc-white titulo">
+					CONTACTO
+                </h4>
+                <a href="mailto:contacto@casacandelaria.cl" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-envelope"></i> contacto@casacandelaria.cl</a>				
+				<a href="tel:+56996805066" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-phone"></i> +56 9 9680 5066</a>
+				<a href="tel:+56953857977" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-phone"></i> +56 9 5385 7977</a>
+                <a href="https://goo.gl/maps/vxBBxcNVWqp" target="_blank" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-map-marker"></i> Candelaria Goyenechea #3820 <br>Local 50/51, Lo Castillo, Vitacura</a>
+			</div>
+			<div class="col-sm-3">
+				<h4 class="mg-md bloc-mob-center-text tc-white titulo">
+					PRODUCTOS
+                </h4>
+                <a href="matrimonio.html" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-plus"></i> Argollas Matrimonio</a>
+                <a href="compromiso.html" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-plus"></i> Anillos Compromiso</a>
+				<a href="cintillos.html" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-plus"></i> Anillos Cintillo</a>
+				<a href="novias.html" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-plus"></i> Joyas para Novias</a>
+			</div>
+			<div class="col-sm-2">
+				<h4 class="mg-md bloc-mob-center-text tc-white titulo">
+					SIGUENOS
+				</h4>
+				<a href="https://www.facebook.com/Casa-Candelaria-163553077143200/" target="_blank" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-facebook"></i> Facebook</a>
+                <a href="https://www.instagram.com/casa_candelaria/" target="_blank" class="a-btn a-block bloc-mob-center-text tc-white texto"><i class="fa fa-instagram"></i> Instagram</a>
+			</div>
+			<div class="col-sm-4">
+				<div class="row">
+					<div class="col-sm-6">
+						<img src="img/logo.png" class="img-responsive logo-footer center-block" />
+					</div>
+					<div class="col-sm-6">
+						<img src="img/gia.png" class="img-responsive  center-block mg-md">
+						<img src="img/webpay.png" class="img-responsive  center-block">
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<!-- <h4 class="modal-title">Formulario de contacto</h4> -->
+		<img src="img/contacto.jpeg" alt="" class="img-responsive center-block">
+    </div>
+    <div class="modal-body">
+		<form class="form-horizontal text-center" name="commentform" method="post" action="contacto.php">
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="first_name">Nombre</label>
+				<div class="col-md-6">
+					<input type="text" class="" id="nombre" name="nombre" placeholder="" size="35"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="last_name">Teléfono</label>
+				<div class="col-md-6">
+					<input type="text" class="" id="telefono" name="telefono" placeholder="" size="35"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="email">E-mail</label>
+					<div class="col-md-6 email">
+						<input  class="uno" id="email" name="email"  placeholder=""  size="12"/>
+						<div class="titulo uno">@</div>
+						<input  class="uno" id="dominio" name="dominio" placeholder="" size="12"/>
+					</div>					
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="first_name">Asunto</label>
+				<div class="col-md-6">
+					<input type="text" class="" id="asunto" name="asunto" placeholder="" size="35"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-md-4 titulo" for="comment">Mensaje</label>
+				<div class="col-md-6">
+					<textarea rows="6" class="" id="comments" name="comments" placeholder="" cols="35"></textarea>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-10">
+					<button id="send_btn" type="submit" value="Submit" class="btn btn-md btn-sq btn-wire wire-btn-outer-space titulo pull-right">ENVIAR</button>
+				</div>
+			</div>
+		</form>
+    </div><!-- End of Modal body -->
+    </div><!-- End of Modal content -->
+    </div><!-- End of Modal dialog -->
+</div><!-- End of Modal -->
+
+<script>
+    $('#send_btn').popover({content: 'Gracias!'},'click');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127056955-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127056955-1');
+</script>
