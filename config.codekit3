@@ -3837,6 +3837,13 @@
 		"oAP": "\/novias.html",
 		"oF": 0
 		},
+	"\/kit\/remarketing.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/remarketing.html",
+		"oF": 0
+		},
 	"\/kit\/somos.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -4374,6 +4381,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/novias.html",
+		"oF": 0
+		},
+	"\/remarketing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/remarketing.html",
 		"oF": 0
 		},
 	"\/somos.html": {
