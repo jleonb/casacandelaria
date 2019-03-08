@@ -23,7 +23,7 @@
 if(isset($_POST['email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "contacto@casacandelaria.cl,casacandelaria51@gmail.com";
+    $email_to = "contacto@casacandelaria.cl";
     // $email_to = "jaime.leon.betancourt@gmail.com";
     $email_subject = "MATRIMONIO - AGAR";
 
@@ -39,7 +39,6 @@ if(isset($_POST['email'])) {
     $nombre = $_POST['nombre']; // required
     $telefono = $_POST['telefono']; // required
     $email = $_POST['email']; //x required
-    $dominio = $_POST['dominio']; //x required
     $asunto = $_POST['asunto']; // required
     $comments = $_POST['comments']; // required
 
@@ -54,12 +53,11 @@ if(isset($_POST['email'])) {
     $email_message .= "Nombre: ".clean_string($nombre)."\n";
 		$email_message .= "Teléfono: ".clean_string($telefono)."\n";
     $email_message .= "Correo: ".clean_string($email)."\n";
-    $email_message .= "Dominio: ".clean_string($dominio)."\n\n";
     $email_message .= "Asunto: ".clean_string($asunto)."\n";
     $email_message .= "Comentario: ".clean_string($comments)."\n";
 
 // create email headers
-$headers = 'From: '.$email."\r\n".
+$headers = 'From: '.$email_to."\r\n".
 'Reply-To: '.$email."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);
