@@ -62,12 +62,10 @@ $headers = 'From: '.$email_to."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);
 sleep(2);
-echo "<meta http-equiv='refresh' content=\"0; url=./index.html\">";
+echo "<meta http-equiv='refresh' content=\"0; url=./gracias.html\">";
 ?>
 
 <?php
 }
 ?>
 
-
-$headers .= "To: $email\r\n";

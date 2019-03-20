@@ -1130,6 +1130,13 @@
 		"oAP": "\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
+	"\/gracias.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/gracias.html",
+		"oF": 0
+		},
 	"\/img\/agenda_tu_hora.jpeg": {
 		"ft": 16384,
 		"iS": 19341,
@@ -3443,6 +3450,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/footer.html",
+		"oF": 0
+		},
+	"\/kit\/gracias.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/gracias.html",
 		"oF": 0
 		},
 	"\/kit\/index.kit": {
