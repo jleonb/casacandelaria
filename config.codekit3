@@ -786,6 +786,20 @@
 		"oAP": "\/com_janis.php",
 		"oF": 0
 		},
+	"\/com_joy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/com_joy.html",
+		"oF": 0
+		},
+	"\/com_joy.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/com_joy.php",
+		"oF": 0
+		},
 	"\/com_julia.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3338,6 +3352,13 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/com_janis.html",
+		"oF": 0
+		},
+	"\/kit\/com_joy.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/com_joy.html",
 		"oF": 0
 		},
 	"\/kit\/com_julia.kit": {
